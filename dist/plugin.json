@@ -1,0 +1,29 @@
+{
+  "name": "Github",
+  "id": "grafana-github-datasource",
+  "type": "datasource",
+
+  "staticRoot": ".",
+
+  "metrics": true,
+  "annotations": false,
+
+  "info": {
+    "description": "Github API datasource",
+    "author": {
+      "name": "Jeremy Satterfield",
+      "url": "http://jsatt.com"
+    },
+    "links": [
+      {"name": "GitHub", "url": "https://github.com/jsatt/grafana-github-datasource"},
+      {"name": "MIT License", "url": "https://github.com/jsatt/grafana-github-datasource/blob/master/LICENSE"}
+    ],
+    "version": "0.0.1",
+    "updated": "2016-05-20"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}
